@@ -4,24 +4,42 @@ body {
     font-style: #777777;
     font-family: Arial, Helvetica, sans-serif
 }
-.nav_bar {
-    margin: auto;
-    border-bottom: 1px solid #000000;
-    width: 960px;
 
-}
-
-.nav_bar ul {
-    padding: 10;
+.index {
+    float: right;
+    margin-right: 10px;
     list-style: none;
-    text-align:center;
 }
 
-.nav-bar ul li {
+.contact {
+    margin-right: 10px;
+    float: right; 
+    list-style: none;
+}
+
+.portfolio {
+    margin-right: 10px;
+    float: right;
+    list-style: none;
+}
+
+.myname {
     float: left;
-    font-size: 16px;
-    font-weight: bold;
-    margin-right: 15px; 
+    align-self: auto;
+    background: #4aaaa5;
+}
+
+.aboutkar {
+    float: left;
+    border-inline-end: mediumturquoise;
+    margin-bottom: 20px;
+    background-size: 50px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    position: relative;
+    clear: left;
 }
 
 header {
@@ -29,25 +47,24 @@ header {
     border: #cccccc;
     padding: 20px;
     font-style: #4aaaa5;
+    margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-aside {
-    border-bottom: #333;
-    padding: 0px 20px 0px 20px;
-  width: 960px;
-  height: 25px;
-  background-color: #fff;
-  color: #333;
-  margin:auto
+
+#invisible {
+    width: 960px;
+    margin: 0 auto;
 }
 
 section {
         width: 960px;
-        height: 880px;
+        height: 250px;
         background-color: #fff;
         color: #333;
-        margin:10px 0 0 20px;
+        margin:0 auto;
+        margin-bottom: 40px;
+    
 }
 
 footer {
